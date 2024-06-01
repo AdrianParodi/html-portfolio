@@ -1,6 +1,22 @@
+:root{
+
+}
+
+body,html{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16,24,32);
+    color:rgb(249,249,249);
+    justify-content: center;
+    align-items: center;
+    padding: 0% 8%;
+}
+
+
+/* Las de abajo son por ahora.... */
 img{
-    height: 40px;
-    width: 70px;
+    height: 60px;
+    width: 80px;
 }
 
 .foto-sobre-mi{
@@ -9,8 +25,44 @@ img{
     border-radius: 50%;
 }
 
+header{
+    width:100%;
+    border: 2px solid wheat;
+}
+
+/* Barra de navegacion y sus divisiones */
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-izq{
+    display: flex;
+    align-items: center;
+}
+
+.nav-centro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Boton de la parte derecha de la barra de navegacion */
+.hire-button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(254,231,21);
+    background-color: rgb(16,24,32);
+    color: rgb(254,231,21);
+}
+
+
 section{
-    border: 2px solid black;
+    border: 2px solid rgb(186, 14, 14);
     margin: 25px 0px;
 }
 
