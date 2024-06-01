@@ -1,3 +1,22 @@
+/* Las de abajo son por ahora.... */
+img{
+    height: 60px;
+    width: 80px;
+}
+
+.foto-sobre-mi{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.foto-rostro{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+
+/* Acá empiezan las que van definitivamente */
 :root{
 
 }
@@ -10,19 +29,6 @@ body,html{
     justify-content: center;
     align-items: center;
     padding: 0% 8%;
-}
-
-
-/* Las de abajo son por ahora.... */
-img{
-    height: 60px;
-    width: 80px;
-}
-
-.foto-sobre-mi{
-    height: 15%;
-    width: 15%;
-    border-radius: 50%;
 }
 
 header{
@@ -52,13 +58,34 @@ nav{
 }
 
 /* Boton de la parte derecha de la barra de navegacion */
-.hire-button{
+.small-button{
     padding: 10px;
     border-radius: 20px;
-    border: 2px solid rgb(254,231,21);
+    border: 1px solid rgb(254,231,21);
     background-color: rgb(16,24,32);
     color: rgb(254,231,21);
 }
+
+/* Sección Hero */
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.div-foto-rostro{
+    height:100%;
+}
+
+.big-button{
+    padding: 15px 40px;
+    border-radius: 40px;
+    width: 160px;
+    border: 1px solid rgb(254,231,21);
+    background-color: rgb(16,24,32);
+    color: rgb(254,231,21);
+    margin-right: 15px;
+}
+
 
 
 section{
