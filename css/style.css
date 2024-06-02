@@ -91,6 +91,7 @@ nav{
 section{
     border: 2px solid rgb(186, 14, 14);
     margin: 25px 0px;
+    width: 100%;
 }
 
 div{
