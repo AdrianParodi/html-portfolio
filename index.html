@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp 1 - Parodi</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
 </head>
 
 <body>
@@ -39,45 +40,52 @@
             <button class="big-button">Contratarme</button>
             <button class="big-button">Sobre mi</button>
         </div>
-        <div class="div-foto-rostro">
-            <img class="foto-rostro" src="img/CV.png" alt="rostro del desarrollador">
-        </div>
+        <!-- <div class="div-foto-rostro"> -->
+            <img class="foto-perfil" src="img/CV.png" alt="rostro del desarrollador">
+        <!-- </div> -->
     </section>
 
     <!-- Seccion Sobre mi -->
-    <section>
+    <section class="sobre-mi">
         <!-- Subseccion con la foto y el cuadro de borde blanco -->
-        <section>
-            <h1>Sobre mi</h1>
+        <h1>Sobre mi</h1>
+        <section class="sobre-mi-top">
             <img class="foto-sobre-mi" src="img/Sobre mi.jpeg" alt="">
-            <div>
+            <div class= "div-borde-blanco">
                 <h2>Diseñar no es un problema para mí. Soy diseñador web y programador en Python</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, unde iure. Eius fugiat, ut eos, voluptas ex voluptates corporis, voluptatum cupiditate obcaecati exercitationem dolores. Aperiam rerum ipsa dolores? Dignissimos, consequatur?</p>
-                <button>Consultar Servicios Disponibles</button>
+                <button class="services-button">
+                    <i class="fa-solid fa-arrow-right-long flechas-icons"></i>
+                    Consultar Servicios Disponibles
+                    <i class="fa-solid fa-arrow-left-long flechas-icons"></i>
+                </button>
             </div>
         </section>
+        
+        
 
         <!-- Subseccion de los cuadros con borde amarillo e imagenes -->
-        <section>
-            <div>
-                <img src="img/sobre mi.jpeg" alt="">
+        <section class="destacados">
+            <div class="div-borde-amarillo-destacada">
+                <i class="fa-solid fa-chart-line"></i>
                 <h2>Diseño Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
 
-            <div>
-                <img src="img/sobre mi.jpeg" alt="">
-                <h2>Diseño Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="div-borde-amarillo-destacada">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Performance</h2>
+                <p>Lorem ipsum  adipisicing elit.</p>
             </div>
-            <div>
-                <img src="img/sobre mi.jpeg" alt="">
-                <h2>Diseño Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="div-borde-amarillo-destacada">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Feedback</h2>
+                <p>Lorem ipsum dolor elit.</p>
             </div>
         </section>
     </section>
-    
+
     <!-- Seccion Habilidades -->
     <section>
         <h1>Habilidades</h1>

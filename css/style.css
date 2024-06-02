@@ -4,17 +4,21 @@ img{
     width: 80px;
 }
 
-.foto-sobre-mi{
-    height: 15%;
-    width: 15%;
+.foto-perfil{
     border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    margin-right: 20px;
+    margin-left: 40px;
 }
 
-.foto-rostro{
+.foto-sobre-mi{
     border-radius: 50%;
-    height: 220px;
-    width: 220px;
+    height: 270px;
+    width: 270px;
+    margin-left: 15px;
 }
+
 
 /* Acá empiezan las que van definitivamente */
 :root{
@@ -72,9 +76,9 @@ nav{
     align-items: center;
 }
 
-.div-foto-rostro{
+/* .div-foto-rostro{
     height:100%;
-}
+} */
 
 .big-button{
     padding: 15px 40px;
@@ -84,6 +88,95 @@ nav{
     background-color: rgb(16,24,32);
     color: rgb(254,231,21);
     margin-right: 15px;
+}
+
+/* Seccion Sobre mi */
+.sobre-mi{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.sobre-mi h1{
+    line-height: 16px;
+    margin: 8px 0px 0px 0px;
+}
+
+.sobre-mi-top{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.div-borde-blanco{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border: 1px dashed rgb(249,249,249);
+    border-radius: 20px;
+    margin-left: 15px;
+    padding: 0px 0px 30px 20px;
+}
+
+.services-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-radius: 25px;
+    width: 300px;
+    border: 1px solid rgb(254,231,21);
+    background-color: rgb(16,24,32);
+    color: rgb(254,231,21);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.flechas-icons{
+    font-size: 25px;
+}
+
+/* Subseccion con cuadros amarillos e imágenes */
+.destacados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.div-borde-amarillo-destacada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px dashed rgb(254,231,21);
+    border-radius: 20px;
+    padding: 10px 25px 5px 25px;
+    align-self: stretch;
+}
+
+.destacados p{
+    color: rgb(254,231,21);
+    font-size: 14px;
+    font-weight: 400;
+    width:250px;
+}
+
+.destacados i{
+    color: rgb(254,231,21);
+    font-size: 60px;
+    margin: 10px 0px;
+}
+
+.destacados h2{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    font-style: normal;
 }
 
 
@@ -96,5 +189,5 @@ section{
 
 div{
     border: 2px solid green;
-    margin: 25px 0px;
+    margin: 10px 0px;
 }
