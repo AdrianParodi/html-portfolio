@@ -94,7 +94,6 @@ nav{
 .sobre-mi{
     display:flex;
     flex-direction: column;
-
 }
 
 .sobre-mi h1{
@@ -214,6 +213,57 @@ nav{
     color: rgb(16,24,32);
     font-size: 60px;
     margin: 10px 0px;
+}
+
+/* Sección Servicios */
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    border: none;
+}
+
+.servicios div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    border: 1px dashed rgb(254,231,21);
+    border-radius: 20px;
+    padding: 10px 25px 15px 25px;
+    align-self: stretch;
+}
+
+.servicios h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.servicios p{
+    color: rgb(249,249,249);
+    font-size: 14px;
+    font-weight: 400;
+    width:250px;
+}
+
+.servicios i{
+    color: rgb(254,231,21);
+    font-size: 60px;
+    margin: 10px 0px;
+}
+
+.servicios button{
+    color: rgb(16,24,32);
+    background-color: rgb(254,231,21);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 30px;
 }
 
 
