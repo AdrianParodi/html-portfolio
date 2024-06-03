@@ -21,7 +21,7 @@ img{
 
 
 /* Acá empiezan las que van definitivamente */
-:root{
+:root{ --transition-buttons: 1.5s;
 
 }
 
@@ -39,6 +39,8 @@ header{
     border: 2px solid wheat;
     background-color: rgb(16,24,32);
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .header-container{
@@ -80,6 +82,13 @@ nav{
     border: 1px solid rgb(254,231,21);
     background-color: rgb(16,24,32);
     color: rgb(254,231,21);
+    transition: var(--transition-buttons);
+}
+
+.small-button:hover{
+    background: rgb(254,231,21);
+    color: rgb(16,24,32);
+    cursor: pointer;
 }
 
 /* Sección Hero */
@@ -101,6 +110,13 @@ nav{
     background-color: rgb(16,24,32);
     color: rgb(254,231,21);
     margin-right: 15px;
+    transition: var(--transition-buttons);
+}
+
+.big-button:hover{
+    background: rgb(254,231,21);
+    color: rgb(16,24,32);
+    cursor: pointer;
 }
 
 /* Seccion Sobre mi */
@@ -143,6 +159,13 @@ nav{
     color: rgb(254,231,21);
     margin-right: 15px;
     margin-top: 15px;
+    transition: var(--transition-buttons);
+}
+
+.services-button:hover{
+    background: rgb(254,231,21);
+    color: rgb(16,24,32);
+    cursor: pointer;
 }
 
 .flechas-icons{
@@ -311,6 +334,10 @@ nav{
     border: none;
     border-radius: 30px;
     padding: 7px 30px;
+}
+
+button:hover{
+    cursor:pointer;
 }
 
 /* Seccion de Testimonios */
