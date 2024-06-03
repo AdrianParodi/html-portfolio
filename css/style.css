@@ -61,7 +61,7 @@ nav{
     align-items: center;
     border: 1px yellow solid;
     flex-basis: 100%;
-    margin: 0px 40px;
+    margin: 0px 20px;
     padding: 0 20px; /* Espacio interno a los lados */   
 }
 
@@ -168,6 +168,7 @@ nav{
     border-radius: 20px;
     padding: 10px 25px 5px 25px;
     align-self: stretch;
+    width: 26%;
 }
 
 .destacados p{
@@ -213,6 +214,7 @@ nav{
     border-radius: 20px;
     padding: 10px 25px 5px 25px;
     align-self: stretch;
+    width: 26%;
 }
 
 .habilidades p{
@@ -226,6 +228,38 @@ nav{
     color: rgb(16,24,32);
     font-size: 60px;
     margin: 10px 0px;
+}
+
+/* Seccion Proyectos */
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    border: none;
+}
+
+.proyectos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: rgb(16,24,32);
+    background-color: rgb(254,231,21);
+    border: 1px dashed rgb(254,231,21);
+    border-radius: 20px;
+    padding: 10px 25px 5px 25px;
+    align-self: stretch;
+    width: 26%;
+}
+
+.proyectos p{
+    color: rgb(16,24,32);
+    font-size: 14px;
+    font-weight: 400;
+    width:250px;
 }
 
 /* Sección Servicios */
