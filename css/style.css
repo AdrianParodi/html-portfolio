@@ -36,17 +36,28 @@ body,html{
 }
 
 header{
-    width:100%;
+    width: 100%;
     border: 2px solid wheat;
+    background-color: rgb(16,24,32);
+    position: fixed;
+    top: 0px;
+    /* padding: 0% 8%; */
 }
 
 /* Barra de navegacion y sus divisiones */
 nav{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     align-items: center;
+    border: 1px yellow solid;
+    /* margin: 0 auto; Centra el contenedor */
+    flex-basis: 100%;
+    margin: 0px 40px;
+
+    /* max-width: 1200px; El ancho máximo del contenido */
+    padding: 0 20px; /* Espacio interno a los lados */   
 }
 
 .nav-izq{
@@ -74,6 +85,7 @@ nav{
 .hero{
     display: flex;
     align-items: center;
+    height: 65vh;
 }
 
 /* .div-foto-rostro{
