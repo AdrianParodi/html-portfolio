@@ -36,18 +36,9 @@ body,html{
 }
 
 header{
-    display: flex;
-    /* position: relative; */
     border: 2px solid wheat;
     background-color: rgb(16,24,32);
-    /* padding-top: 5px; */
-    /* box-sizing: border-box; */
-    /* padding: 0% 8%; */
-    position: center;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: 1000;
 }
 
 .header-container{
