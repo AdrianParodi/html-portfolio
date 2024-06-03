@@ -41,7 +41,7 @@
             <button class="big-button">Sobre mi</button>
         </div>
         <!-- <div class="div-foto-rostro"> -->
-            <img class="foto-perfil" src="img/CV.png" alt="rostro del desarrollador">
+            <img class="foto-perfil" src="img/CV.jpeg" alt="rostro del desarrollador">
         <!-- </div> -->
     </section>
 
@@ -228,13 +228,37 @@
 
     <!-- Seccion de contacto -->
 
-    <section>
-        <h1>Contacto</h1>
-        <form action=""> email</form>
+    <section class="contacto">
+        <div>        
+            <h1>Contacto</h1>
+        </div>
+        <form class="formulario">
+            <div>
+                <input type="text" id="fname" name="fname" placeholder="Nombre *">
+            </div>
+            <div>
+                <input type="text" id="lname" name="lname" placeholder="Apellido *">
+            </div>
+            
+            <div>
+                <input type="email" id="email" name="email" placeholder="Email *">
+            </div>
+
+            <div>
+                <textarea id="mensaje" name="mensaje" required placeholder="Mensaje *"></textarea>
+            </div>
+
+            <div>
+                <button class="small-button" type="submit"> Enviar</button>
+            </div>    
+                
+        </form>
 
     </section>
 
-
+    <footer>
+        <p>footer</p>
+    </footer>
 
 
 </body>
