@@ -294,9 +294,9 @@ nav{
 /* Sección Servicios */
 .servicios{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
     align-content: space-between;
     border: none;
@@ -312,6 +312,7 @@ nav{
     border-radius: 20px;
     padding: 10px 25px 15px 25px;
     align-self: stretch;
+    width: 26%;
 }
 
 .servicios h1{
@@ -379,6 +380,7 @@ button:hover{
     border-radius: 20px;
     padding: 10px 25px 15px 25px;
     align-self: stretch;
+    width: 15%;
 }
 
 .testimonios p{
