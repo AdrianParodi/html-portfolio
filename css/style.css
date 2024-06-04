@@ -1,8 +1,8 @@
 /* Las de abajo son por ahora.... */
-img{
+/* img{
     height: 60px;
     width: 80px;
-}
+} */
 
 .foto-perfil{
     border-radius: 50%;
@@ -53,6 +53,11 @@ header{
 .header-izq{
     display: flex;
     align-items: center;
+}
+
+.header-container img{
+    width:50px;
+    height:50px;
 }
 
 /* Barra de navegacion y sus divisiones */
@@ -133,6 +138,7 @@ nav{
 .sobre-mi-top{
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     padding: 0px;
 }
 
@@ -397,8 +403,6 @@ button:hover{
     align-items: center;
 }
 
-
-
 .contacto div{
     display: flex;
     flex-direction: column;
@@ -428,7 +432,7 @@ form{
 /* Generales */
 
 section{
-    border: 2px solid rgb(186, 14, 14);
+    border: 1px solid rgb(186, 14, 14);
     margin: 15px 0px;
     width: 100%;
 }
