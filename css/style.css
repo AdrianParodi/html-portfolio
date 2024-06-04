@@ -21,23 +21,26 @@
 
 
 /* Acá empiezan las que van definitivamente */
-:root{ --transition-buttons: 1.5s;
-
+:root{ 
+    --transition-buttons: 1.5s;
+    --general-margin:0% 10%;
+    --width-div-testimonios:18;
+    --background-color:rgb(16,24,32);
 }
 
-body,html{
+body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(16,24,32);
+    background-color: var(--background-color);
     color:rgb(249,249,249);
     justify-content: center;
     align-items: center;
-    padding: 0% 8%;
+    margin: var(--general-margin);
 }
 
 header{
     border: 1px solid wheat;
-    background-color: rgb(16,24,32);
+    background-color: var(--background-color);
     width: 100%;
     position: fixed;
     top: 0;
@@ -48,6 +51,7 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+    margin: var(--general-margin);
 }
 
 .header-izq{
@@ -85,7 +89,7 @@ nav{
     padding: 10px;
     border-radius: 20px;
     border: 1px solid rgb(254,231,21);
-    background-color: rgb(16,24,32);
+    background-color: var(--background-color);
     color: rgb(254,231,21);
     transition: var(--transition-buttons);
 }
@@ -112,7 +116,7 @@ nav{
     border-radius: 40px;
     width: 160px;
     border: 1px solid rgb(254,231,21);
-    background-color: rgb(16,24,32);
+    background-color: var(--background-color);
     color: rgb(254,231,21);
     margin-right: 15px;
     transition: var(--transition-buttons);
@@ -161,7 +165,7 @@ nav{
     border-radius: 25px;
     width: 300px;
     border: 1px solid rgb(254,231,21);
-    background-color: rgb(16,24,32);
+    background-color: var(--background-color);
     color: rgb(254,231,21);
     margin-right: 15px;
     margin-top: 15px;
@@ -380,7 +384,7 @@ button:hover{
     border-radius: 20px;
     padding: 10px 25px 15px 25px;
     align-self: stretch;
-    width: 15%;
+    width: var(--width-div-testimonios);
 }
 
 .testimonios p{
@@ -465,13 +469,12 @@ footer{
 /* Generales */
 
 section{
-    border: 1px solid rgb(186, 14, 14);
+    /* border: 1px solid rgb(186, 14, 14); */
     margin: 15px 0px;
     width: 100%;
 }
 
 div{
-    border: 2px solid green;
+    /* border: 1px solid green; */
     margin: 5px 0px;
-
 }
