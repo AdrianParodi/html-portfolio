@@ -1,5 +1,3 @@
-# html-portfolio
-
 En este repositorio se puede encontrar mi implementacion personal del siguiente portafolio:
 
 https://dribbble.com/shots/22636222-Portfolio-design
