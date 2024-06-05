@@ -4,6 +4,10 @@
     width: 80px;
 } */
 
+/* Importo pagina de íconos bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
 .foto-perfil{
     border-radius: 50%;
     height: 270px;
@@ -24,7 +28,7 @@
 :root{ 
     --transition-buttons: 1.5s;
     --general-margin:0% 10%;
-    --width-div-testimonios:18;
+    --width-div-testimonios:18%;
     --background-color:rgb(16,24,32);
 }
 
@@ -53,6 +57,13 @@ header{
     justify-content: space-between;
     flex-grow: 1;
     margin: var(--general-margin);
+}
+
+.header-container i{
+    color: rgb(254,231,21);
+    font-size: 40px;
+    margin: 10px 0px;
+    display: none;
 }
 
 .header-izq{
@@ -115,7 +126,8 @@ nav{
 .big-button{
     padding: 15px 40px;
     border-radius: 40px;
-    width: 160px;
+    text-align: center;
+    width: 180px;
     border: 1px solid rgb(254,231,21);
     background-color: var(--background-color);
     color: rgb(254,231,21);
@@ -129,6 +141,10 @@ nav{
     cursor: pointer;
 }
 
+.contenedor-dos-botones{
+    display: flex;
+}
+
 /* Seccion Sobre mi */
 .sobre-mi{
     display:flex;
@@ -138,7 +154,7 @@ nav{
 /* .sobre-mi h1{
     /* line-height: 16px; */
     /* margin: 8px 0px 0px 0px; */
-} */
+
 
 .sobre-mi-top{
     display: flex;

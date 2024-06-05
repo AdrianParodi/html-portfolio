@@ -1,0 +1,36 @@
+@media(max-width:320px){
+
+}
+@media(max-width:480px){}
+@media(max-width:768px){
+    /* Seccion Hero */
+    .foto-perfil{
+        height:200px;
+        width:200px;        
+    }
+
+     
+    .hero div{
+        flex-basis:100%;
+        flex-grow:1;        
+    }
+
+    /* Seccion Sobre mi */
+    .foto-sobre-mi{
+        height:220px;
+        width:220px; 
+    }
+
+    .div-borde-blanco{
+        padding: 0px 0px 30px 20px;
+        margin-right:30px;
+    }
+
+    /* section{
+        padding-right: 5px;
+    } */
+}
+@media(max-width:1024px){}
+@media(max-width:1280px){}
+@media(max-width:1440px){}
+@media(max-width:1920px){}
