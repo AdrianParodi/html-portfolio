@@ -55,10 +55,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-basis: 100%;
     flex-grow: 1;
     margin: var(--general-margin);
 }
 
+/* Icono para desplegar el menu en responsive */
 .header-container i{
     color: rgb(254,231,21);
     font-size: 40px;
