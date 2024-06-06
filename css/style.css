@@ -207,6 +207,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     border: none;
+    flex-basis: 100%;
+    padding-top:5px;
 }
 
 .destacados div{
