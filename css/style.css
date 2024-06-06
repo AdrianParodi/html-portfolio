@@ -149,6 +149,7 @@ nav{
 .sobre-mi{
     display:flex;
     flex-direction: column;
+    flex-basis:100% ;
 }
 
 /* .sobre-mi h1{
