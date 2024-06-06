@@ -78,10 +78,18 @@ header{
     font-weight: 600;
 }
 
+.header-izq p:hover{
+    cursor: pointer;
+}
+
+
 .header-container img{
     width:45px;
     height:45x;
 }
+
+
+
 
 /* Barra de navegacion y sus divisiones */
 nav{
@@ -267,6 +275,7 @@ nav{
     align-items: center;
     align-content: space-between;
     border: none;
+    padding:20px 0px;
 }
 
 .habilidades div{
@@ -305,6 +314,7 @@ nav{
     align-items: center;
     align-content: space-between;
     border: none;
+    padding-top: 20px;
 }
 
 .proyectos div{
@@ -338,6 +348,7 @@ nav{
     align-items: center;
     align-content: space-between;
     border: none;
+    padding-top: 20px;
 }
 
 .servicios div{
@@ -394,7 +405,7 @@ button:hover{
     align-items: center;
     align-content: space-between;
     border: none;
-    /* border: white solid 2px; */
+    padding-top: 20px;
 }
 
 .testimonios img{
@@ -425,7 +436,14 @@ button:hover{
     color: rgb(249,249,249);
     font-size: 14px;
     font-weight: 400;
-    width:200px;
+    width:80%;
+}
+
+.stars{
+    height:30px;
+    border:white 4px solid;
+    padding: 0px 0px;
+    margin: 0px 0px;
 }
 
 .stars::before {
@@ -433,6 +451,8 @@ button:hover{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     color: rgb(254,231,21);
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -506,11 +526,15 @@ section{
     /* border: 1px solid rgb(186, 14, 14); */
     margin: 5px 0px;
     width: 100%;
-    padding-top:70px;
-    border: 1px solid red;
+    padding-top:80px;
+    /* border: 1px solid red; */
 }
 
 div{
     /* border: 1px solid green; */
     margin: 5px 0px;
 }
+
+/* h1.{
+    margin-bottom: 40px;
+} */
