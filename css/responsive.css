@@ -166,12 +166,17 @@
 }
 
 @media(max-width:1440px){
+
+
     :root{ 
-        --general-margin:0% 15%;
-        --width-div-testimonios:18%;;
+        --general-margin:0% 10%;
+        --width-div-testimonios:18%;
+        --line-height-simple: 24px;
     }
+
     p{
         font-size: 16px;
+        line-height: var(--line-height-simple);
     }
 
     h1{
@@ -182,17 +187,37 @@
         font-size: 22;
     }
 
+    /* Seccion header */
+    .header-izq p{
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:45px;
+        height:45x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+
+    .header-container a{
+        font-size:16px;
+        font-weight: 600;
+        margin: 12px;
+    } 
+
     .small-button{
-        width: 150px;
+        width: 140px;
         padding: 10px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
-    .big-button{
-        width: 200px;
+    /* Seccion servicios */
+    .servicios button{
+        font-size: 14px;
+        font-weight: 700;
+        padding: 7px 30px;
     }
-    
-
 }
 
 

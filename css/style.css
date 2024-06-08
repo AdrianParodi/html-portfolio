@@ -74,6 +74,7 @@ header{
     flex-basis: 100%;
     flex-grow: 1;
     margin: var(--general-margin);
+    /* border: 1px solid green; */
 }
 
 /* Icono para desplegar el menu en responsive */
@@ -113,6 +114,7 @@ nav{
     flex-basis: 100%;
     margin: 0px 20px;
     padding: 0 20px; /* Espacio interno a los lados */   
+    /* width:80%; */
 }
 
 .header-container a{
