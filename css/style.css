@@ -15,7 +15,9 @@
     --width-div-testimonios:18%;
     --background-color:rgb(16,24,32);
     --line-height-simple: 12px;
-    --line-height-double: calc(var(--line-height-simple) * 2)
+    --line-height-double: calc(var(--line-height-simple) * 2);
+    --padding-top-hero: 120px;
+    --padding-top-other-sections: 80px;
 }
 
 p{
@@ -154,6 +156,7 @@ nav{
     display: flex;
     align-items: center;
     height: 65vh;
+    padding-top: var(--padding-top-hero);
 }
 
 .big-button{
@@ -532,7 +535,7 @@ footer{
 section{
     margin: 5px 0px;
     width: 100%;
-    padding-top:80px;
+    padding-top:var(--padding-top-other-sections);
 }
 
 div{
