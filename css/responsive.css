@@ -1,13 +1,12 @@
-@media(max-width:1920px){}
+@media(max-width:1920px){
+    /* No me pareció necesario modificarle nada */
+}
+
 @media(max-width:1440px){
     :root{ 
         --general-margin:0% 15%;
         --width-div-testimonios:18%;;
     }
-
-    
-    
-
 }
 
 
