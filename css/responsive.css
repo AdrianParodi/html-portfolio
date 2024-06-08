@@ -1,5 +1,238 @@
 @media(max-width:1920px){
-    /* No me pareció necesario modificarle nada */
+    :root{ 
+        --general-margin:0% 15%;
+        --width-div-testimonios:18%;;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 26;
+    }
+
+    /* Seccion header */
+    .header-izq p{
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:45px;
+        height:45x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+    nav{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px 10px;
+        padding: 10px 10px; 
+        }
+
+    .header-container a{
+        font-size:22px;
+        font-weight: 400;
+        margin: 15px;
+    } 
+
+    .small-button{
+        width: 160px;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    /* Sección Hero */
+    .big-button{
+        padding: 15px 40px;
+        width: 180px;
+        font-size:20px
+    }
+
+
+/* .sobre-mi h1{
+    /* line-height: 16px; */
+    /* margin: 8px 0px 0px 0px; */
+
+
+    .sobre-mi-top{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        padding: 0px;
+    }
+    
+    .div-borde-blanco{
+        margin-left: 15px;
+        padding: 0px 0px 30px 20px;
+    }
+    
+    .services-button{
+        font-size: 20px;
+        padding: 15px 10px;
+        width: 400px;
+        margin-right: 15px;
+        margin-top: 15px;
+
+    }
+    
+    .services-button:hover{
+        background: rgb(254,231,21);
+        color: rgb(16,24,32);
+        cursor: pointer;
+    }
+    
+    .flechas-icons{
+        font-size: 30px;
+    }
+    
+    /* Subseccion con cuadros amarillos e imágenes */
+    .destacados{
+        padding-top:5px;
+    }
+    
+    .destacados div{
+        padding: 10px 25px 5px 25px;
+        width: 26%;
+    }
+    
+    .destacados p{
+        color: rgb(254,231,21);
+        font-size: 18px;
+        font-weight: 400;
+        width:250px;
+    }
+    
+    .destacados i{
+        color: rgb(254,231,21);
+        font-size: 60px;
+        margin: 10px 0px;
+    }
+    
+    .destacados h2{
+        margin: 10px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 28px;
+        font-style: normal;
+    }
+    
+    /* Seccion habilidades */
+    .habilidades{
+        padding:20px 0px;
+    }
+    
+    .habilidades div{
+        padding: 10px 25px 5px 25px;
+        width: 26%;
+    }
+    
+    .habilidades p{
+        font-size: 18px;
+        font-weight: 400;
+        width:250px;
+    }
+    
+    .habilidades i{
+        color: rgb(16,24,32);
+        font-size: 60px;
+        margin: 10px 0px;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        padding-top: 20px;
+    }
+    
+    .proyectos div{
+        width: 26%;
+    }
+    
+    .proyectos p{
+        color: rgb(16,24,32);
+        font-size: 18px;
+        font-weight: 400;
+        width:250px;
+    }
+    
+    /* Sección Servicios */    
+    .servicios h2{
+        font-size: 26px;
+    }
+    
+    .servicios p{
+        font-size: 18px;
+    }
+
+    .servicios button{
+        font-size: 18px;
+    }
+    
+    button:hover{
+        cursor:pointer;
+    }
+    
+    /* Seccion de Testimonios */    
+    .testimonios img{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .testimonios div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        border: 1px dashed rgb(254,231,21);
+        border-radius: 20px;
+        padding: 10px 25px 15px 25px;
+        align-self: stretch;
+        width: var(--width-div-testimonios);
+    }
+    
+    .testimonios p{
+        font-size: 18px;
+    }
+    
+    .stars{
+        height:35px;
+    }
+    
+    
+    /* Seccion de contacto */
+    .contacto input{
+        font-size: 18px;
+    }
+    
+    .contacto textarea{
+        font-size: 18px;
+    }
+    
+    form{
+        width: 45%
+    }
+    
+    /* Seccion Footer */    
+    .footer-icons{
+        font-size: 35px;
+        padding: 15px;
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+
+
+
+
+
 }
 
 @media(max-width:1440px){
