@@ -6,12 +6,166 @@
     }
 
     
+    
 
 }
 
 
-@media(max-width:1280px){}
-@media(max-width:1024px){}
+@media(max-width:1280px){
+    :root{ 
+        --general-margin:0% 10%;
+        --width-div-testimonios:18%;;
+    }
+
+    .header-izq p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:35px;
+        height:35x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+    nav{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px 10px;
+        padding: 10px 10px; 
+        }
+
+    .header-container a{
+        font-size:16px;
+        font-weight: 400;
+        margin: 5px;
+    } 
+
+    /* Boton de la parte derecha de la barra de navegacion */
+    /* .div-boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .small-button{
+        width: 110px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1024px){
+    .header-izq p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header-container img{
+        width:35px;
+        height:35x;
+    }
+
+    /* Barra de navegacion y sus divisiones */
+    nav{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px 10px;
+        padding: 10px 10px; 
+        }
+
+    .header-container a{
+        font-size:16px;
+        font-weight: 400;
+        margin: 5px;
+    } 
+
+    /* Boton de la parte derecha de la barra de navegacion */
+    .div-boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small-button{
+        width: 110px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Subseccion de los cuadros con borde amarillo e imagenes */
+
+    .destacados{
+        flex-basis: 100%;
+        width:100%;    
+    }
+
+    .destacados div{
+        width:23%;
+    }
+
+    .destacados p{
+        width:100%;
+    }
+     
+    /* Seccion habilidades */
+    .habilidades{
+        flex-basis: 100%;
+        width:100%;
+    }
+    
+    .habilidades div{
+        width:23%;
+    }
+    
+    .habilidades p{
+        width:100%;
+    }
+
+    .habilidades h1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        font-style: normal;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        flex-basis:100%;
+        width:100%;
+    }
+    
+    .proyectos div{
+        width:23%;
+    }
+    
+    .proyectos p{
+        width:100%;
+    }
+
+    .proyectos h1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        font-style: normal;
+    }
+
+    /* Sección Servicios */
+    .servicios{
+        padding-top: 20px;
+    }
+
+    .servicios div{
+        width: 23%;
+    }
+
+    .servicios p{
+        font-size: 14px;
+        font-weight: 400;
+        width:80%;
+    }
+
+}
 
 
 @media(max-width:768px){
