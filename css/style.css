@@ -8,6 +8,30 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 
+/* Acá empiezan las que van definitivamente */
+:root{ 
+    --transition-buttons: 1.5s;
+    --general-margin:0% 10%;
+    --width-div-testimonios:18%;
+    --background-color:rgb(16,24,32);
+    --line-height-simple: 12px;
+    --line-height-double: calc(var(--line-height-simple) * 2)
+}
+
+p{
+    font-size: 20px;
+    line-height: var(--line-height-simple);
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 26;
+}
+
+
 .foto-perfil{
     border-radius: 50%;
     height: 270px;
@@ -23,14 +47,6 @@
     margin-left: 15px;
 }
 
-
-/* Acá empiezan las que van definitivamente */
-:root{ 
-    --transition-buttons: 1.5s;
-    --general-margin:0% 10%;
-    --width-div-testimonios:18%;
-    --background-color:rgb(16,24,32);
-}
 
 body{
     font-family: "Mona sans", "Helvetica Neue", "Helvetica", "sans-serif";
