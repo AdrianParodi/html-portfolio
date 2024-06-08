@@ -414,10 +414,25 @@
 
 
 @media(max-width:768px){
-    /* body{background-color: blueviolet;} */
     :root{ 
         --general-margin:0% 10%;
-        --width-div-testimonios:18%;;
+        --width-div-testimonios:20%;
+        --line-height-simple: 20px;
+        --padding-top-hero: 140px;
+        --padding-top-other-sections: 80px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: var(--line-height-simple);
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 22;
     }
 
     .header-izq p{
@@ -454,7 +469,6 @@
     .small-button{
         width: 110px;
         padding: 10px;
-        transition: var(--transition-buttons);
         font-size: 16px;
     }
 
@@ -468,7 +482,6 @@
     }
     .hero{
         flex-basis: 100%;
-        /* padding: 50px; */
     }
     
     .hero p{
@@ -478,20 +491,33 @@
     .hero div{
         flex-basis:100%;
         flex-grow:1; 
-        width: 100%;
-        border: 1px green solid;       
+        width: 100%;     
     }
 
     /* Seccion Sobre mi */
+    .sobre-mi-top{
+        width:100%;
+    }
+
     .foto-sobre-mi{
-        height:220px;
-        width:220px; 
+        height:200px;
+        width:200px; 
     }
 
     .div-borde-blanco{
         padding: 0px 5px 30px 20px;
+        width:100%;
         /* margin-right:30px; */
     }
+
+    .services-button{
+        padding: 15px 10px;
+        width: 100%;
+        margin-right: 15px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
 
     /* Subseccion de los cuadros con borde amarillo e imagenes */
 
@@ -525,7 +551,6 @@
     .habilidades h1{
         font-size: 24px;
         font-weight: 600;
-        /* line-height: 28px; */
         font-style: normal;
     }
     
@@ -562,20 +587,12 @@
     }
 
     .servicios p{
-        font-size: 14px;
         font-weight: 400;
         width:80%;
     }
 
     /* Seccion de Testimonios */
     .testimonios{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        align-content: space-between;
-        border: none;
         padding-top: 20px;
         /* border: white solid 2px; */
     }
@@ -595,21 +612,16 @@
         border-radius: 20px;
         padding: 10px 25px 15px 25px;
         align-self: stretch;
-        width: var(--width-div-testimonios);
     }
 
     .testimonios p{
         color: rgb(249,249,249);
-        font-size: 14px;
         font-weight: 400;
         width:80%;
     }
 
     .stars::before {
-        content:'\f005\00A0\f005\00A0\f005\00A0\f005\00A0\f005';
-        font-family: 'Font Awesome 5 Free';
         font-weight: 900;
-        color: rgb(254,231,21);
     }
 
 
