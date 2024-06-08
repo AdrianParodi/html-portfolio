@@ -163,6 +163,13 @@
         width: 35px;
         height: 35px;
     }
+
+    /* Generales */
+
+    section{
+        padding-top:100px;
+    }
+
 }
 
 @media(max-width:1440px){
@@ -217,6 +224,12 @@
         font-size: 14px;
         font-weight: 700;
         padding: 7px 30px;
+    }
+
+    /* Generales */
+
+    section{
+        padding-top:100px;
     }
 }
 
