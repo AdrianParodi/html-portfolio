@@ -278,6 +278,14 @@
 }
 
 @media(max-width:1024px){
+    :root{ 
+        --general-margin:0% 10%;
+        --width-div-testimonios:20%;
+        --line-height-simple: 24px;
+        --padding-top-hero: 60px;
+        --padding-top-other-sections: 80px;
+    }
+
     p{
         font-size: 20px;
     }
@@ -313,6 +321,11 @@
         font-weight: 400;
         margin: 5px;
     } 
+
+    /* Sección Hero */
+    .hero{
+    height: 80vh;
+    }
 
     /* Boton de la parte derecha de la barra de navegacion */
     .div-boton{
