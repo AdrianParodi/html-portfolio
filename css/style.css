@@ -88,9 +88,6 @@ header{
     height:45x;
 }
 
-
-
-
 /* Barra de navegacion y sus divisiones */
 nav{
     display: flex;
@@ -104,7 +101,7 @@ nav{
 
 .header-container a{
     font-size:18px;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     color:rgb(249,249,249);
 } 
@@ -248,7 +245,6 @@ nav{
 
 .destacados p{
     color: rgb(254,231,21);
-    font-size: 14px;
     font-weight: 400;
     width:250px;
 }
@@ -261,8 +257,8 @@ nav{
 
 .destacados h2{
     margin: 10px;
-    font-size: 20px;
-    font-weight: 500;
+    /* font-size: 20px;
+    font-weight: 500; */
     line-height: 28px;
     font-style: normal;
 }
@@ -295,7 +291,7 @@ nav{
 
 .habilidades p{
     color: rgb(16,24,32);
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 400;
     width:250px;
 }
@@ -334,7 +330,7 @@ nav{
 
 .proyectos p{
     color: rgb(16,24,32);
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 400;
     width:250px;
 }
@@ -365,13 +361,11 @@ nav{
 }
 
 .servicios h2{
-    font-size: 20px;
     font-weight: 600;
 }
 
 .servicios p{
     color: rgb(249,249,249);
-    font-size: 14px;
     font-weight: 400;
     width:250px;
 }
@@ -405,7 +399,7 @@ button:hover{
     align-items: center;
     align-content: space-between;
     border: none;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .testimonios img{
@@ -427,14 +421,13 @@ button:hover{
     text-align: center;
     border: 1px dashed rgb(254,231,21);
     border-radius: 20px;
-    padding: 10px 25px 15px 25px;
+    padding: 20px 0px;
     align-self: stretch;
     width: var(--width-div-testimonios);
 }
 
 .testimonios p{
     color: rgb(249,249,249);
-    font-size: 14px;
     font-weight: 400;
     width:80%;
 }
@@ -447,7 +440,7 @@ button:hover{
 }
 
 .stars::before {
-    content:'\f005\00A0\f005\00A0\f005\00A0\f005\00A0\f005';
+    content:'\f005\00A0\00A0\f005\00A0\00A0\f005\00A0\00A0\f005\00A0\00A0\f005';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     color: rgb(254,231,21);
@@ -523,18 +516,11 @@ footer{
 /* Generales */
 
 section{
-    /* border: 1px solid rgb(186, 14, 14); */
     margin: 5px 0px;
     width: 100%;
     padding-top:80px;
-    /* border: 1px solid red; */
 }
 
 div{
-    /* border: 1px solid green; */
     margin: 5px 0px;
 }
-
-/* h1.{
-    margin-bottom: 40px;
-} */

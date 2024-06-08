@@ -9,7 +9,7 @@
     }
 
     h1{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     h2{
@@ -37,7 +37,7 @@
 
     .header-container a{
         font-size:22px;
-        font-weight: 400;
+        font-weight: 600;
         margin: 15px;
     } 
 
@@ -114,13 +114,11 @@
         margin: 10px 0px;
     }
     
-    .destacados h2{
+    /* .destacados h2{
         margin: 10px;
-        font-size: 26px;
-        font-weight: 500;
         line-height: 28px;
         font-style: normal;
-    }
+    } */
     
     /* Seccion habilidades */
     .habilidades{
@@ -133,7 +131,7 @@
     }
     
     .habilidades p{
-        font-size: 18px;
+        /* font-size: 18px; */
         font-weight: 400;
         width:250px;
     }
@@ -154,23 +152,21 @@
     }
     
     .proyectos p{
-        color: rgb(16,24,32);
-        font-size: 18px;
-        font-weight: 400;
         width:250px;
     }
     
     /* Sección Servicios */    
-    .servicios h2{
+    /* .servicios h2{
         font-size: 26px;
     }
     
     .servicios p{
         font-size: 18px;
-    }
+    } */
 
     .servicios button{
-        font-size: 18px;
+        font-size: 22px;
+        padding: 9px 35px;
     }
     
     button:hover{
@@ -179,31 +175,13 @@
     
     /* Seccion de Testimonios */    
     .testimonios img{
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
-    
-    .testimonios div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        text-align: center;
-        border: 1px dashed rgb(254,231,21);
-        border-radius: 20px;
-        padding: 10px 25px 15px 25px;
-        align-self: stretch;
-        width: var(--width-div-testimonios);
-    }
-    
-    .testimonios p{
-        font-size: 18px;
-    }
-    
+        
     .stars{
         height:35px;
     }
-    
     
     /* Seccion de contacto */
     .contacto input{
@@ -288,6 +266,18 @@
 }
 
 @media(max-width:1024px){
+    p{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    h2{
+        font-size: 26;
+    }
+
     .header-izq p{
         font-size: 18px;
         font-weight: 600;
@@ -355,7 +345,6 @@
     }
 
     .habilidades h1{
-        font-size: 24px;
         font-weight: 600;
         line-height: 28px;
         font-style: normal;
@@ -376,7 +365,6 @@
     }
 
     .proyectos h1{
-        font-size: 24px;
         font-weight: 600;
         line-height: 28px;
         font-style: normal;
