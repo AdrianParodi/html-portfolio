@@ -1,9 +1,3 @@
-/* Las de abajo son por ahora.... */
-/* img{
-    height: 60px;
-    width: 80px;
-} */
-
 /* Importo pagina de íconos bootstrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
@@ -31,6 +25,10 @@ h1{
 
 h2{
     font-size: 26;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -62,7 +60,6 @@ body{
 }
 
 header{
-    border: 1px solid wheat;
     background-color: var(--background-color);
     width: 100%;
     position: fixed;
@@ -81,7 +78,7 @@ header{
 
 /* Icono para desplegar el menu en responsive */
 .header-container i{
-    color: rgb(254,231,21);
+    color: rgb(249,249,249);
     font-size: 40px;
     margin: 10px 0px;
     display: none;
@@ -115,14 +112,13 @@ nav{
     align-items: center;
     flex-basis: 100%;
     margin: 0px 20px;
-    padding: 0 20px; /* Espacio interno a los lados */   
-    /* width:80%; */
+    padding: 0 20px; 
 }
 
 .header-container a{
     font-size:18px;
     font-weight: 600;
-    text-decoration: none;
+    /* text-decoration: none; */
     color:rgb(249,249,249);
 } 
 
@@ -262,8 +258,8 @@ nav{
 
 .destacados p{
     color: rgb(254,231,21);
-    font-weight: 400;
-    width:250px;
+    /* font-weight: 400; */
+    /* width:250px; */
 }
 
 .destacados i{

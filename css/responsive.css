@@ -690,13 +690,29 @@
     }
 
     /* Barra de navegacion */
-    nav{
+
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        justify-content: center;
+        }
+        
+    .header-container nav a{
         display:none;
     }
 
-    /* nav:hover{
-        display:block;
-    } */
+    .header-container i{
+        display: block;
+        justify-self: center;
+    }
+
+    .header-container i:hover{
+        cursor: pointer;
+    }
 
     .small-button{
         width: 130px;
@@ -732,6 +748,34 @@
         margin-top: 15px;
         font-size: 16px;
     }
+
+    /* Subseccion con cuadros amarillos e imágenes */
+
+    /* .destacados{
+        flex-basis: 100%;
+        padding-top:5px;
+    } */
+    
+    .destacados div{
+        padding: 8px;
+        width: 25%;
+    }
+    
+    .destacados p{
+        /* width: none; */
+        font-size: 14px;
+    }
+    
+    .destacados i{
+        font-size: 50px;
+        margin: 10px 0px;
+    }
+    
+    /* .destacados h2{
+        margin: 10px;
+        line-height: 28px;
+    } */
+
 
     /* Seccion habilidades */
     .habilidades{
