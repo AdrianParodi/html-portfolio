@@ -73,7 +73,6 @@ header{
     flex-basis: 100%;
     flex-grow: 1;
     margin: var(--general-margin);
-    /* border: 1px solid green; */
 }
 
 /* Icono para desplegar el menu en responsive */
@@ -181,7 +180,8 @@ nav{
 .sobre-mi{
     display:flex;
     flex-direction: column;
-    flex-basis:100% ;
+    flex-basis:100%;
+    width:100%;
 }
 
 /* .sobre-mi h1{
@@ -280,6 +280,7 @@ nav{
 .habilidades{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
@@ -320,6 +321,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
     border: none;
@@ -447,7 +449,7 @@ button:hover{
 
 .stars{
     height:30px;
-    border:white 4px solid;
+    /* border:white 4px solid; */
     padding: 0px 0px;
     margin: 0px 0px;
 }

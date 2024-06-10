@@ -843,9 +843,292 @@
     form{
         width: 80%
     }
+}
+
+
+@media(max-width:320px){
+    :root{ 
+        --transition-buttons: 1.5s;
+        --general-margin:0% 2%;
+        --width-div-testimonios:36%;
+        --background-color:rgb(16,24,32);
+        --line-height-simple: 16px;
+        --line-height-double: 22px;
+        --padding-top-hero: 120px;
+        --padding-top-other-sections: 80px;
+    }
+    
+    p{
+        font-size: 12px;
+        line-height: var(--line-height-simple);
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    /* Barra de navegacion */
+
+    header{
+        width: 100%;
+    }
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    nav {
+        justify-content: center;
+        }
+        
+    .header-container nav a{
+        display:none;
+    }
+
+    .header-container i{
+        display: block;
+        justify-self: center;
+    }
+
+    .header-container i:hover{
+        cursor: pointer;
+    }
+
+    .small-button{
+        width: 100px;
+        padding: 6px;
+        font-size: 14px;
+    }
+    
+    /* Seccion Hero */
+    .foto-perfil{
+        display: none;
+    }
+
+    .big-button{
+        padding: 7px 10px;
+        width: 135px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    /* Seccion sobre mi */
+
+    .div-borde-blanco{
+        margin-left: 0px;
+        padding: 0px 0px 20px 15px;
+    }
+
+    .foto-sobre-mi{
+        display: none;
+    }
+
+    .services-button{
+        padding: 9px 8px;
+        width: 280px;
+        margin-right: 10px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    /* Subseccion con cuadros amarillos e imágenes */
+
+    .destacados{
+        flex-direction: column;
+        /* padding:5px; */
+        justify-content: space-between;
+    }
+    
+    .destacados div{
+        align-self: center;
+        padding: 8px;
+        width: 80%;
+    }
+    
+    .destacados p{
+        font-size: 14px;
+    }
+    
+    .destacados i{
+        font-size: 35px;
+        margin: 10px 0px;
+    }
+    
+    /* .destacados h2{
+        margin: 10px;
+        line-height: 28px;
+    } */
+
+
+    /* Seccion habilidades */
+    .habilidades{
+        flex-basis: 100%;
+        width:100%;
+    }
+    
+    .habilidades div{
+        width: 36%;
+        padding: 10px 15px;
+    }
+    
+    .habilidades p{
+        width:none;
+    }
+
+    .habilidades h1{
+        font-weight: 600;
+        font-style: normal;
+        font-size: 18px;
+    }
+
+    .habilidades i{
+        font-size: 45px;
+    }
+    
+    /* Seccion Proyectos */
+    .proyectos{
+        flex-basis:100%;
+        width:100%;
+    }
+    
+    .proyectos div{
+        width: 36%;
+        padding: 10px 15px;
+    }
+
+    .proyectos h1{
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+
+    /* Seccion servicios */
+    .servicios div{
+        width: 36%;
+        padding: 10px 15px;
+    }
+
+    .servicios p{
+        width:100%;
+    }
+
+    .servicios i{
+        font-size: 45px;
+    }
+
+    .servicios button{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 4px 12px;
+    }
+
+    /* Seccion de Testimonios */
+    .stars{
+        height:20px;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    } 
+    
+
+    .stars::before {
+        content:'\f005\00A0\f005\00A0\f005\00A0\f005\00A0\f005';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 800;
+        font-size: 14px;
+        color: rgb(254,231,21);
+    }
+
+    .testimonios div{
+        padding: 20px 15px;
+
+    }
+
+    .testimonios p{
+        width:100%;
+    }
+
+    /* Seccion footer */
+    form{
+        width: 80%
+    }
+
+
+    /* Seccion de contacto */
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    border: none;
+}
+
+.contacto input{
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.contacto textarea{
+    padding: 10px 10px;
+    border-radius: 7px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%
+}
+
+/* Seccion Footer */
+
+footer{
+    width: 100%;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer-section div{
+    display:flex;
+    align-items: center;
+}
+
+.div-iconos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons{
+    color: rgb(254,231,21);
+    font-size: 20px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
 
 }
-@media(max-width:320px){}
 
 
 
