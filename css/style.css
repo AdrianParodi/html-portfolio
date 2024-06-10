@@ -350,6 +350,14 @@ nav{
     width:250px;
 }
 
+.proyectos a{
+    text-decoration: none;
+    color: rgb(16,24,32);
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
 /* Sección Servicios */
 .servicios{
     display: flex;
