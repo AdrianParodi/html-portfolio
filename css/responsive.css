@@ -760,6 +760,11 @@
     }
 
     /* Seccion sobre mi */
+
+    .div-borde-blanco{
+        margin-left: 0px;
+    }
+
     .foto-sobre-mi{
         display: none;
     }
