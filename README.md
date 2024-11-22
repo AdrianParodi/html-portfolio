@@ -4,7 +4,7 @@ https://dribbble.com/shots/22636222-Portfolio-design
 
 Se puede acceder a la versión implementada por mí en el siguiente link:
 
-https://adrieto.github.io/html-portfolio/
+[https://adrieto.github.io/html-portfolio/](https://adrianparodi.github.io/html-portfolio/)
 
 
 El desarrollo consiste en la implementación
